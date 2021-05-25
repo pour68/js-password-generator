@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 1rem auto;
+}
+
+.password {
+    width: 100%;
+    max-width: 333px;
+    padding: 0.4rem 0.5rem;
+}
+
+.password:focus {
+    outline: none;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-block {
+    width: 100%;
+    display: block;
+}
+
+.btn-primary {
+    background-color: #005de9;
+    color: #fff;
+}
+
+.alert {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    display: inline;
+    padding: 0.5rem;
+    font-size: 2.5rem;
+    transition: 0.3s;
+}
+
+.alert-success {
+    background-color: rgb(0, 165, 96);
+    color: #fff;
+}
